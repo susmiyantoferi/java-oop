@@ -6,7 +6,7 @@ import project.source.data.Toyota;
 public class CarApp {
     public static void main(String[] args) {
 
-        //ENKAPSULATION
+        //POLIMORPHISME
         Car car = new Toyota();
 
         car.jalan();

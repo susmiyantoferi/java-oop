@@ -5,5 +5,7 @@ public interface Car extends Brand, IsMaintenance{
 
      int getTier();
 
-
+     default Boolean isBig(){
+          return true;
+     }
 }
